@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    width: 100%;
+    background: url(COLOR004.jpg) ;
+    background-size: cover;
+    position: relative;
+}
+                                /*INI HEADER*/
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fad92a;
+}
+header .container{
+    margin: auto;
+    width: 80%;
+
+}
+header .container .navigasi ul li{
+    list-style: none;
+
+}
+header .container .navigasi ul li a{  
+margin-top: 20px;
+float: right;
+color: rgb(41, 41, 39);
+text-decoration: none;
+font-family: Roboto Condensed;
+font-weight: bold;
+font-size: 18px;
+margin-right: 25px;
+
+}
+header .container .navigasi ul li a:hover{
+    border-bottom: 5px solid rgb(41, 41, 39);
+    border-radius: 1px;
+}
+.logo a h1{
+    float: left;
+    color: rgb(41, 41, 39);
+    margin-top: 15px;
+    font-family: Bangers;
+    text-decoration:none;
+}
+.logo a h1:hover{
+    background-color: #fad92a;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px #5a5956;
+}
+        /*ISI BODY PAGE 1 */
+.awal{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+}
+.awal .container {
+    height: 350px;
+    padding-top: 80px;
+}
+                        /* INI BUAT BIKIN GAMBAR & TULISAN*/
+ .gambar{
+    width: 250px;
+    height: 250px;
+    background: #fad92a;
+    background-image: url("farhan.png");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 200px;
+
+}
+.left{
+    width: 35%;
+    height: 250px;
+    float: left;
+}
+.right{
+    width: 65%;
+    height: 250px;
+    float: right;
+}
+.quote {
+    width: 470px;
+    color: rgb(41, 41, 39);
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: bolder;
+
+}
+.gambar:hover{
+    padding: 5px;
+    background-color: #fad92a;
+    background-image: url("farhan.png");
+    background-size: cover;
+    border-style: solid;
+    border-color:rgb(41, 41, 39);
+    box-shadow: 10px 10px #5a5956;
+}
+.started{
+    width: 100%;
+    border-radius: 20px;
+}
+.started a{
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(41, 41, 39);
+    margin-left: 570px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Roboto Condensed;
+    color: d4b724;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.started a:hover{
+    box-shadow: 5px 10px #5a5956;
+}
+.text{
+    color: #d4b724;
+    font-family: Roboto Condensed;
+    background-color:  rgb(41, 41, 39);
+    float: right;
+    margin-right: 180px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top:150px;
+    line-height: 40px;
+    box-shadow: 10px 10px #5a5956;
+}
+ /*AWAL PAGE 2 */
+#about{
+    width: 100%;
+    height: 1000px;
+    background:#fff;
+}
+#about .text{
+    line-height: 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+    margin-top: 100px;
+}
+#about .container{
+    margin-top: 200px;
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+    /*PROFIL GAMBAR */
+.profil{
+    width: 30%;
+    height: 420;
+    margin-top: 50px;
+    float: left;
+    background-image: url(farhan.png);
+    background-size: cover;
+    margin-top: 200px;
+}
+.profil:hover{
+    box-shadow: 5px 5px #5a5956;
+    background-color: #fad92a;
+    padding: 5px;
+    border-radius: 5px;   
+}
+    /* BIO*/
+.bio{
+    width: 60%;
+    height: 450px;
+    margin-top: 50px;
+    float: right;
+    border-radius: 20px;
+}
+.bio p{
+font-size: 40px;
+font-family: Bangers;
+text-align: center;
+margin-top: 30px;
+font-weight: lighter;
+color: rgb(41, 41, 39);
+}
+.bio p:hover{
+    box-shadow: 5px 5px #5a5956;
+    background-color: #fad92a;
+    padding: 5px;
+    border-radius: 5px;   
+}
+.bio table{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: Roboto Condensed;
+    color: rgb(41, 41, 39);
+    font-weight: bold;
+}
+.bio table:hover{
+    box-shadow: 5px 5px #5a5956;
+    background-color: #fad92a;
+    padding: 5px;
+    border-radius: 5px;   
+}
+    /*Download CV */
+#about .button{
+    padding-top: 3px;
+    width: 130px;
+    height: 30px;
+    background-color: #fad92a;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#about .button:hover{
+    box-shadow: 5px 5px #5a5956;
+}
+#about .button a{
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    color: rgb(41, 41, 39);
+    padding-top: 2px;
+} 
+        /*awal page 3 */
+#service{
+    width: 100%;
+    height: 800px;
+}
+#service .container{
+    width: 90%;
+    height: 400px;
+    background-color: rgb(218, 198, 24);
+    margin: auto;
+} 
+#service .container .skill1{
+    width: 25%;
+    margin-left: 5px;
+}
+#service .container .skill1 h1{
+width: 100%;
+font-size: 20px;
+font-family: Roboto Condensed;
+margin-left: 5px;
+padding-top: 10px;
+margin-top: 10px;
+}
+#service .container .skill1 img{
+    width: 220px;
+    height: 80px;
+}
+#service .container .persen1 p{
+  width: 50%;
+  float: right;
+  font-weight: bold;
+  margin-top: -86px;
+  font-family: Roboto Condensed;
+  margin-right: 190px;
+}
+.deskripsi1{
+    margin-top: -20px;
+    font-family: Roboto Condensed;
+}
+
+#service .container .skill2{
+    width: 25%;
+    margin-left: 5px;
+    float: right;
+    margin-right: 100px;
+ /* */
+}
+#service .container .skill2 h1{
+width: 100%;
+font-size: 20px;
+font-family: Roboto Condensed;
+margin-left: 5px;
+padding-top: 10px;
+margin-top: 10px;
+}
+#service .container .skill2 img{
+    width: 220px;
+    height: 80px;
+}
+#service .container .persen2 p{
+  width: 50%;
+  float: right;
+  font-weight: bold;
+  margin-top: -86px;
+  font-family: Roboto Condensed;
+  margin-right: 190px;
+}
+.deskripsi1{
+    margin-top: -20px;
+    font-family: Roboto Condensed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .navigasi{
+        display: none;
+    }
+    .logo{
+        margin-left: 220px;
+    }
+    .right{
+        width: 60%;
+    }
+    .right .quote{
+        font-size: 25px;
+    }
+    .text{
+ margin-right:210px ;
+    }
+    .left{
+        width: 40%;
+    }
+    .left .gambar{
+        width: 150px;
+        height: 150px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    .started{
+        width: 100%;
+        margin: auto;
+  
+    }
+    .started a{
+        margin:auto;
+        margin-left: 230px;
+    }
+    #home{
+        height: 500px;
+    }
+
+    .profil{
+        width: 180px;
+        height: 180px;
+        background-size: cover;
+        border-radius: 20px
+    }
+    .bio p{
+        width: 260px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 15px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .bio table{
+        margin-top: 50px;
+        background-color: rgb(218, 198, 24);
+        margin-left: -50px;
+        border-color: rgb(39, 39, 39);
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 25px;
+    }
+    #about .bio .button{
+        padding-top: 3px;
+        width: 120px;
+        display: inline-block;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    #about .bio .button a{
+        padding-top: 10px;
+    }
+}
